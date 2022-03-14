@@ -17,7 +17,7 @@ const Heading = styled(Typography)`
 
 const HeaderBar = ({ open, handleDrawer }) => {
   const logo =
-    "https://www.shareicon.net/data/2015/09/02/94699_note_512x512.png";
+    "https://i.pinimg.com/originals/d3/00/1b/d3001b34a1c241cbc5950a37ddf0c91c.png";
 
   return (
     <Header open={open}>
@@ -29,7 +29,7 @@ const HeaderBar = ({ open, handleDrawer }) => {
         >
           <Menu />
         </IconButton>
-        <img src={logo} alt="logo" style={{ width: 50 }} />
+        <img src={logo} alt="logo" style={{ width: 40 }} />
         <Heading>Notes</Heading>
       </Toolbar>
     </Header>
